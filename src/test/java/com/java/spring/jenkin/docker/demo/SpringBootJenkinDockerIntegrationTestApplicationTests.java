@@ -14,8 +14,9 @@ class SpringBootJenkinDockerIntegrationTestApplicationTests {
 	Logger logger=LoggerFactory.getLogger(SpringBootJenkinDockerIntegrationTestApplicationTests.class);
 	@Test
 	void contextLoads() {
-		logger.info("Test case executing sucsessfully......");
+		logger.info("Test case executing ......");
 		assertEquals(true, true);
+		logger.info("Test case executing completed......");
 	}
 
 }
